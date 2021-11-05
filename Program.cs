@@ -23,35 +23,57 @@ if (opt == 1) ;
     int month = int.Parse(Console.ReadLine());
 
     switch (month)
-//Month with 31 Days
+    //Month with 31 Days
     {
-  case 1:
-    Console.WriteLine("There are 31 days in January");
-        break;
+        case 1:
+            Console.WriteLine("There are 31 days in January");
+            break;
 
-  case 3:
-    Console.WriteLine("There are 31 days in March");
-        break;
-  case 5:
-    Console.WriteLine("There are 31 days in May");
-        break;
-  case 7:
-    Console.WriteLine("There are 31 days in July");
-        break;
-  case 8:
-    Console.WriteLine("There are 31 days in August");
-        break;
-  case 10:
-    Console.WriteLine("There are 31 days in October");
-        break
-  case 12:
-    Console.WriteLine("There are 31 days in December");
-        break;
+        case 3:
+            Console.WriteLine("There are 31 days in March");
+            break;
+
+        case 5:
+            Console.WriteLine("There are 31 days in May");
+            break;
+
+        case 7:
+            Console.WriteLine("There are 31 days in July");
+            break;
+
+        case 8:
+            Console.WriteLine("There are 31 days in August");
+            break;
+
+        case 10:
+            Console.WriteLine("There are 31 days in October");
+            break;
+
+        case 12:
+            Console.WriteLine("There are 31 days in December");
+            break;
     }
 
-//Month with 30 Days
+    //Month with 30 Days
+    switch (month)
+    {
+        case 4:
+            Console.WriteLine("There are 30 days in April");
+            break;
 
+        case 5:
+            Console.WriteLine("There are 30 days in June");
+            break;
 
+        case 9:
+            Console.WriteLine("There are 30 days in September");
+            break;
+
+        case 11:
+            Console.WriteLine("There are 30 days in November");
+            break;
+    }
+}
 
 
 
