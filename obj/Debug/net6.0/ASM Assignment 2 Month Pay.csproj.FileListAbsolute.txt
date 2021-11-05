@@ -1,0 +1,16 @@
+C:\Users\zacbl\source\repos\ASM Assignment 2 Month Pay\obj\Debug\net6.0\ASM Assignment 2 Month Pay.GlobalUsings.g.cs
+C:\Users\zacbl\source\repos\ASM Assignment 2 Month Pay\obj\Debug\net6.0\ASM Assignment 2 Month Pay.csproj.AssemblyReference.cache
+C:\Users\zacbl\source\repos\ASM Assignment 2 Month Pay\obj\Debug\net6.0\ASM Assignment 2 Month Pay.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\zacbl\source\repos\ASM Assignment 2 Month Pay\obj\Debug\net6.0\ASM Assignment 2 Month Pay.AssemblyInfoInputs.cache
+C:\Users\zacbl\source\repos\ASM Assignment 2 Month Pay\obj\Debug\net6.0\ASM Assignment 2 Month Pay.AssemblyInfo.cs
+C:\Users\zacbl\source\repos\ASM Assignment 2 Month Pay\obj\Debug\net6.0\ASM Assignment 2 Month Pay.csproj.CoreCompileInputs.cache
+C:\Users\zacbl\source\repos\ASM Assignment 2 Month Pay\bin\Debug\net6.0\ASM Assignment 2 Month Pay.exe
+C:\Users\zacbl\source\repos\ASM Assignment 2 Month Pay\bin\Debug\net6.0\ASM Assignment 2 Month Pay.deps.json
+C:\Users\zacbl\source\repos\ASM Assignment 2 Month Pay\bin\Debug\net6.0\ASM Assignment 2 Month Pay.runtimeconfig.json
+C:\Users\zacbl\source\repos\ASM Assignment 2 Month Pay\bin\Debug\net6.0\ASM Assignment 2 Month Pay.dll
+C:\Users\zacbl\source\repos\ASM Assignment 2 Month Pay\bin\Debug\net6.0\ref\ASM Assignment 2 Month Pay.dll
+C:\Users\zacbl\source\repos\ASM Assignment 2 Month Pay\bin\Debug\net6.0\ASM Assignment 2 Month Pay.pdb
+C:\Users\zacbl\source\repos\ASM Assignment 2 Month Pay\obj\Debug\net6.0\ASM Assignment 2 Month Pay.dll
+C:\Users\zacbl\source\repos\ASM Assignment 2 Month Pay\obj\Debug\net6.0\ref\ASM Assignment 2 Month Pay.dll
+C:\Users\zacbl\source\repos\ASM Assignment 2 Month Pay\obj\Debug\net6.0\ASM Assignment 2 Month Pay.pdb
+C:\Users\zacbl\source\repos\ASM Assignment 2 Month Pay\obj\Debug\net6.0\ASM Assignment 2 Month Pay.genruntimeconfig.cache
