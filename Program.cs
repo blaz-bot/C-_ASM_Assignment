@@ -22,8 +22,8 @@ if (opt == 1) ;
 
     int month = int.Parse(Console.ReadLine());
 
+    //Months with 31 days
     switch (month)
-    //Month with 31 Days
     {
         case 1:
             Console.WriteLine("There are 31 days in January");
@@ -54,7 +54,7 @@ if (opt == 1) ;
             break;
     }
 
-    //Month with 30 Days
+    //Month with 30 days
     switch (month)
     {
         case 4:
@@ -73,6 +73,31 @@ if (opt == 1) ;
             Console.WriteLine("There are 30 days in November");
             break;
     }
+
+    //February 
+
+    switch (month)
+    {
+        case 2:
+        Console.WriteLine("You have selected February")
+        Console.WriteLine("As February has a varying number of days please input the year:")
+        
+        int febyear = int.Parse(Console.ReadLine());
+
+        if (febyear % != 4)
+        Console.WriteLine("There are 28 days in February in the year " +febyear)
+
+        else if (febyear % != 100)
+        Console.WriteLine("There are 29 days in February as it was a leap year in the year " +febyear)
+
+        else if (febyear % !=400)
+        Console.WriteLine("There are 28 days in February in the year " +febyear)
+
+        else Console.WriteLine("There are 29 days in February as it was a leap year in the year " +febyear)
+
+
+    }
+
 }
 
 
