@@ -5,16 +5,9 @@ Console.WriteLine("Enter your desired input corresponding to the respective acti
 Console.WriteLine("1: Month, Day Tool");
 Console.WriteLine("2: Pay Calculator Tool");
 Console.WriteLine("3: Exit Application");
-string str = Console.ReadLine();
+int opt = int.Parse(Console.ReadLine());
 
 
-//Establishing the desired option !!IMPORTANT!!
-opt = int.Parse(str);
-
-
-    if (opt == 1) ;
-
-//Month Day Calculator Tool
 if (opt == 1) ;
 
 {
@@ -25,6 +18,15 @@ if (opt == 1) ;
     //Months with 31 days
     switch (month)
     {
+
+        case 1:
+        case 3:
+        case 5:
+        case 7:
+            Console.WriteLine("There are 31 days in January");
+            break;
+    }
+        /*{
         case 1:
             Console.WriteLine("There are 31 days in January");
             break;
@@ -72,36 +74,46 @@ if (opt == 1) ;
         case 11:
             Console.WriteLine("There are 30 days in November");
             break;
+    }*/
+
+        //February 
+
+        /* switch (month)
+         {
+             case 2:
+             Console.WriteLine("You have selected February")
+             Console.WriteLine("As February has a varying number of days please input the year:")
+
+             int febyear = int.Parse(Console.ReadLine());
+
+             if (febyear 4 % != 0)
+             Console.WriteLine("There are 28 days in February in the year " +febyear)
+
+             else if (febyear 100 % != 0)
+             Console.WriteLine("There are 29 days in February as it was a leap year in the year " +febyear)
+
+             else if (febyear 400% != 0)
+             Console.WriteLine("There are 28 days in February in the year " +febyear)
+
+             else Console.WriteLine("There are 29 days in February as it was a leap year in the year " +febyear)
+
+
+         }*/
+
     }
 
-    //February 
 
-    switch (month)
-    {
-        case 2:
-        Console.WriteLine("You have selected February")
-        Console.WriteLine("As February has a varying number of days please input the year:")
-        
-        int febyear = int.Parse(Console.ReadLine());
+if (opt == 2) ;
 
-        if (febyear % != 4)
-        Console.WriteLine("There are 28 days in February in the year " +febyear)
+Console.WriteLine("Please enter your income:");
 
-        else if (febyear % != 100)
-        Console.WriteLine("There are 29 days in February as it was a leap year in the year " +febyear)
+int pay = int.Parse(Console.ReadLine());
 
-        else if (febyear % !=400)
-        Console.WriteLine("There are 28 days in February in the year " +febyear)
+if (pay <= 18000)
+    Console.WriteLine("Congratulations!! you do not have to pay any tax");
 
-        else Console.WriteLine("There are 29 days in February as it was a leap year in the year " +febyear)
-
-
-    }
-
-}
-
-
-
+else if (pay <= 75000)
+    Console.WriteLine("..");
 
 
 
